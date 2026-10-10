@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: say hello
         run: echo "Hello world!"
-    job2:
+   job2:
       needs: job1
       runs-on: ubuntu-latest
       steps:
